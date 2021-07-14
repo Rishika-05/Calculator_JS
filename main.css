@@ -34,6 +34,7 @@ span {
     padding-bottom: 6px;
     background-color: white;
     width: 28vw;
+    box-shadow: 3px 3px 13px 4px #131010;
 }
 
 .screen {
