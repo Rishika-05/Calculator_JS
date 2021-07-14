@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="shortcut icon" href="cal.ico" type="image/x-icon"> 
+        <link rel="stylesheet" type="" href="main.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+            integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f"
+            crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="center white">
+            <h1><span><i class="fas fa-calculator"></i></span>Calculator</h1>
+        </div>
+        <div class="box">
+            <div class="screen">
+                <p class="dispaly" id="display"></p>
+            </div>
+            <div class="btns">
+                <div class="row">
+                    <div class="clear btn" id="clear" data-value="ac">
+                        <p ><span><b>AC</b> </span></p>
+                    </div>
+                    <div class="sign btn" id="sign" data-value="sign">
+                        <p ><span> <b>+/- </b></span></p>
+                    </div>
+                    <div class="percent btn" id="percent" data-value="%">
+                        <p ><span> <b>%</b></span></p>
+                    </div>
+                    <div class="divide blue btn" id="divide" data-value="/">
+                        <p ><span>/</span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="seven btn" id="seven" data-value="7">
+                        <p ><span><b>7</b> </span></p>
+                    </div>
+                    <div class="eight btn" id="eight" data-value="8">
+                        <p ><span> <b>8 </b></span></p>
+                    </div>
+                    <div class="nine btn" id="nine" data-value="9">
+                        <p ><span> <b> 9 </b></span></p>
+                    </div>
+                    <div class="multiply blue btn" id="multiply"  data-value="*">
+                        <p><span><b>x</b></span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="four btn" id="four" data-value="4">
+                        <p ><span><b>4</b> </span></p>
+                    </div>
+                    <div class="five btn" id="five" data-value="5">
+                        <p ><span> <b>5 </b></span></p>
+                    </div>
+                    <div class="six btn" id="six" data-value="6">
+                        <p ><span> <b> 6 </b></span></p>
+                    </div>
+                    <div class="minus blue btn" id="minus" data-value="-">
+                        <p ><span><b>-</b></span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="one btn" id="one" ata-value="1">
+                        <p d><span><b>1</b> </span></p>
+                    </div>
+                    <div class="two btn" id="two" data-value="2">
+                        <p ><span> <b>2 </b></span></p>
+                    </div>
+                    <div class="three btn" id="three" data-value="3">
+                        <p ><span> <b> 3 </b></span></p>
+                    </div>
+                    <div class="add blue  btn" id="add" data-value="+">
+                        <p ><span><b>+</b></span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="zero btn" id="zero" data-value="0">
+                        <p ><span> <b>0 </b></span></p>
+                    </div>
+                    <div class="dot btn" id="dot" data-value=".">
+                        <p ><span> <b> . </b></span></p>
+                    </div>
+                    <div class="equal blue btn" id="equal" data-value="=">
+                        <p ><span><b> = </b></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+            integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+</html>
