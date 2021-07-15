@@ -1,5 +1,9 @@
 # Calculator_JS
-A simple calculator made using HTML, CSS and JS.
-<br> 
-</br>
+**Various mini-projects made using HTML, CSS and JS.**
+1) A simple calculator
+
 ![Calculator](/calculator.png)
+
+2) A counter
+
+![Counter](/Counter/counterF.mp4)
