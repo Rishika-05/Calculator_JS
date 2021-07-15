@@ -36,7 +36,14 @@ for (var i = 0; i < buttons.length; i++) {
         } else if (value == "=") {
             operand2 = parseFloat(text);
             var result = eval(operand1 + ' ' + operator + ' ' + operand2);
-            if (result) {
+            if(result == Infinity)
+            {
+                display.textContent = "Can't divide by 0";
+                operand1 = result;
+                operand2 = null;
+                operator = null;
+            }
+            else if (result) {
                 display.textContent = result;
                 operand1 = result;
                 operand2 = null;
