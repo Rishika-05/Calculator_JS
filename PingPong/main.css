@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+#container {
+    position: relative;
+}
+
+#ball {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    top: 20px;
+    left: 52.2%;
+    border-radius: 50%;
+    position: fixed;
+}
+
+#rod1, #rod2 {
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 45vw;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#rod1 {
+    top: 0px;
+    background-color: blue;
+}
+
+#rod2 {
+    bottom: 0px;
+    background-color: purple;
+}
+
+#instruct{
+    margin :auto;
+    margin-top: 35vh;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 10px ;
+    box-shadow: 2px 2px 100px 3px white;
+    visibility: visible;
+}
